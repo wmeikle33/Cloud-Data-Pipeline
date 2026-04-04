@@ -1,3 +1,5 @@
+```bash
+
 cloud-data-pipeline/
 │
 ├── ingestion/
@@ -10,3 +12,5 @@ cloud-data-pipeline/
 ├── Dockerfile
 ├── requirements.txt / pom.xml
 └── README.md
+
+```
