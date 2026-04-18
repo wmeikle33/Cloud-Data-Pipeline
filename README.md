@@ -1,16 +1,54 @@
 ```bash
 
 cloud-data-pipeline/
-│
-├── ingestion/
-├── processing/
-├── orchestration/
-├── infrastructure/
-├── config/
-├── tests/
-├── scripts/
+├── README.md
+├── pyproject.toml / requirements.txt
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
 ├── Dockerfile
-├── requirements.txt / pom.xml
-└── README.md
+├── configs/
+│   ├── dev.yaml
+│   ├── staging.yaml
+│   └── prod.yaml
+├── pipelines/
+│   ├── ingestion/
+│   ├── transformation/
+│   ├── training_data/
+│   └── exports/
+├── src/
+│   ├── api_clients/
+│   ├── extract/
+│   ├── transform/
+│   ├── load/
+│   ├── validation/
+│   ├── logging_utils/
+│   ├── storage/
+│   └── utils/
+├── orchestration/
+│   ├── airflow/
+│   ├── prefect/
+│   └── dagster/
+├── sql/
+│   ├── staging/
+│   ├── marts/
+│   └── checks/
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── data_quality/
+├── infra/
+│   ├── terraform/
+│   ├── cloudformation/
+│   └── iam/
+├── notebooks/
+│   └── exploration/
+├── scripts/
+│   ├── bootstrap.sh
+│   ├── backfill.py
+│   └── run_local.py
+└── .github/workflows/
+    ├── ci.yml
+    └── deploy.yml
 
 ```
