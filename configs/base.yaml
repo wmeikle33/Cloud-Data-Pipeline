@@ -1,0 +1,13 @@
+project:
+  name: customer-churn-pipeline
+
+data:
+  batch_size: 1000
+  date_format: "%Y-%m-%d"
+
+logging:
+  level: INFO
+
+retry:
+  max_attempts: 3
+  delay_seconds: 60
