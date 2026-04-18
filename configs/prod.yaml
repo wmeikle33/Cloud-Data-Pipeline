@@ -1,0 +1,16 @@
+environment: prod
+
+data_sources:
+  user_db:
+    host: 
+    port: 5432
+    database: users
+
+storage:
+  bucket: my-prod-bucket
+
+warehouse:
+  dataset: analytics
+
+features:
+  enable_experimental: false
