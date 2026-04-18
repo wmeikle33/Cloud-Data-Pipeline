@@ -1,1 +1,16 @@
+environment: dev
 
+data_sources:
+  user_db:
+    host: localhost
+    port: 5432
+    database: users_dev
+
+storage:
+  bucket: my-dev-bucket
+
+warehouse:
+  dataset: analytics_dev
+
+features:
+  enable_experimental: true
