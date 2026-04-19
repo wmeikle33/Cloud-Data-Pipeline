@@ -27,8 +27,6 @@ cloud-data-pipeline/
 │   └── utils/
 ├── orchestration/
 │   ├── airflow/
-│   ├── prefect/
-│   └── dagster/
 ├── sql/
 │   ├── staging/
 │   ├── marts/
