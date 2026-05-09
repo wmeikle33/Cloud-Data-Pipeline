@@ -41,6 +41,10 @@ def extract_from_source(start_date, end_date):
 
 def basic_cleaning():
 
+def save_raw():
+     with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)
+
 def run():
     data = extract_from_source()
     data = basic_cleaning(data)
