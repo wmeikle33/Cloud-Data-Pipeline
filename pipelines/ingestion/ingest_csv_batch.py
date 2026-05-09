@@ -4,6 +4,7 @@ def extract_from_source():
         df = pd.read_csv(file)
         
 def basic_cleaning():
+    nan_count = df.isna.sum().resetindex()
     duplicate_count = df.duplicated().sum()
     
 def run():
