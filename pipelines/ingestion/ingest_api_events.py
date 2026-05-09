@@ -1,4 +1,3 @@
-
 def run():
     data = extract_from_source()
     data = basic_cleaning(data)
