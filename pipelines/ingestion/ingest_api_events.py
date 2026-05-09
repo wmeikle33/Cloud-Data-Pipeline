@@ -23,7 +23,7 @@ def extract_from_source(start_date, end_date):
     
     while True:
         response = requests.get(API_URL, headers=headers, params=params)
-        response.raise_for_status() # Raise error for bad responses
+        response.raise_for_status()
         
         data = response.json()
         events = data.get("events", [])
