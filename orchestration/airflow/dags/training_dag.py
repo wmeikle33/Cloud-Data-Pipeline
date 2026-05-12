@@ -8,7 +8,7 @@ from pipelines.model.train import run as train_model
 
 
 with DAG(
-    dag_id="ml_training_pipeline",
+    dag_id="greenscale_image_training_pipeline",
     start_date=datetime.now(),
     schedule_interval="@daily",
     catchup=False,
