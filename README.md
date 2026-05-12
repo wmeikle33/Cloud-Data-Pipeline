@@ -39,7 +39,6 @@ cloud-data-pipeline/
 │   └── data_quality/
 ├── infra/
 │   ├── terraform/
-│   ├── cloudformation/
 │   └── iam/
 ├── notebooks/
 │   └── exploration/
